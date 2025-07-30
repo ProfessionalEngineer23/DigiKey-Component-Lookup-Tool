@@ -1,4 +1,4 @@
-# 🔧 DigiKey Component Lookup Tool
+# DigiKey Component Lookup Tool
 
 This Python tool lets you search electronic components via the DigiKey API, view detailed info, and export search results.
 
