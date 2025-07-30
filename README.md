@@ -21,16 +21,16 @@ Please read the setup instructions fully!
 
 ---
 
-## 📦 Setup Instructions
+## Setup Instructions
 
-### 1. 📥 Clone the repository
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YourUsername/DigiKey-Component-Lookup-Tool.git
+git clone https://github.com/ProfessionalEngineer23/DigiKey-Component-Lookup-Tool.git
 cd DigiKey-Component-Lookup-Tool
 ```
 
-### 2. 🐍 Set up Python virtual environment
+### 2. Set up Python virtual environment
 
 ```bash
 python -m venv venv
@@ -48,7 +48,7 @@ Activate it:
 source venv/bin/activate
 ```
 
-### 3. 📜 Install dependencies
+### 3. Install dependencies
 
 You can manually install all required packages with:
 
@@ -66,7 +66,7 @@ The script will automatically install missing dependencies on first run.
 
 ---
 
-## 🔑 DigiKey API Setup
+## DigiKey API Setup
 
 1. Create a free account at [DigiKey Developer Portal](https://developer.digikey.com/)
 2. Register an app to get:
@@ -79,11 +79,11 @@ DIGIKEY_CLIENT_ID=your_client_id_here
 DIGIKEY_CLIENT_SECRET=your_client_secret_here
 ```
 
-> ✅ Your `.env` is ignored by Git for security. Never upload it to GitHub.
+> Your `.env` is ignored by Git for security. Never upload it to GitHub.
 
 ---
 
-## 🚀 Run the Tool
+## Run the Tool
 
 After activating your virtual environment and editing your `.env` file:
 
@@ -92,11 +92,11 @@ python digikey_lookup.py
 ```
 
 On first run, a browser will open for DigiKey login and authorization.  
-> ⚠️ If the browser shows a warning (e.g., "not private"), you can **safely proceed** — it's part of DigiKey's localhost-based OAuth login.
+> If the browser shows a warning (e.g., "not private"), you can **safely proceed** — it's part of DigiKey's localhost-based OAuth login.
 
 ---
 
-## 🛠️ Example Workflow
+## Example Workflow
 
 ```bash
 Enter part name or number (or 'q' to quit): atmega328pu
@@ -107,26 +107,12 @@ Enter part name or number (or 'q' to quit): atmega328pu
 - Choose to export (single or all results)
 - Save as `.csv` or `.xlsx`
 - View analytics:
-  - 📊 Average quantity available
-  - 🔢 Parts per manufacturer
+  - Average quantity available
+  - Parts per manufacturer
 
 ---
 
-## 📂 Project Structure
-
-```
-DigiKey-Component-Lookup-Tool/
-├── digikey_lookup.py       # Main script
-├── .env.example            # Environment variable template
-├── requirements.txt        # All Python dependencies
-├── errors.log              # Automatically generated error log
-├── README.md               # Full project documentation
-└── .gitignore              # Hides venv, .env, etc.
-```
-
----
-
-## 🔒 Security Advice
+## Security Advice
 
 - Keep your real `.env` file private.
 - Do **not** share your DigiKey credentials — even via GitHub.
@@ -135,7 +121,7 @@ DigiKey-Component-Lookup-Tool/
 
 ---
 
-## 🧠 Tips for Users
+## Tips for Users
 
 - Python 3.11+ is recommended (script was developed on 3.11.9).
 - If you get a `distutils` error, run:
@@ -167,13 +153,13 @@ Thanks to the following resources and tools:
 
 ---
 
-## 📣 Contributing
+## Contributing
 
 Found a bug or want to improve the tool? Contributions are welcome!  
 Please open an issue or submit a pull request.
 
 ---
 
-## 📜 License
+## License
 
 MIT License — free for personal and educational use.
