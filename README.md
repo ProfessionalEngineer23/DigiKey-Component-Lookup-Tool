@@ -69,10 +69,11 @@ The script will automatically install missing dependencies on first run.
 ## DigiKey API Setup
 
 1. Create a free account at [DigiKey Developer Portal](https://developer.digikey.com/)
-2. Register an app to get:
+2. Watch this helpful video by eeintech: https://youtu.be/OI1EGEc0Ju0?si=-jcA02vf3ZqAk8kV
+3. Register an app to get:
    - `DIGIKEY_CLIENT_ID`
    - `DIGIKEY_CLIENT_SECRET`
-3. Rename `.env.example` to `.env` and edit the file:
+4. Rename `.env.example` to `.env` and edit the file:
 
 ```
 DIGIKEY_CLIENT_ID=your_client_id_here
@@ -149,6 +150,7 @@ Thanks to the following resources and tools:
 - [OpenPyXL](https://openpyxl.readthedocs.io/)
 - [python-dotenv](https://pypi.org/project/python-dotenv/)
 - [Tabulate](https://pypi.org/project/tabulate/)
+- eeintech's video on setting up DigiKey API production apps. Check him out here: https://www.youtube.com/@eeintech
 - Everyone on Stack Overflow and GitHub whose solutions helped refine this tool!
 
 ---
