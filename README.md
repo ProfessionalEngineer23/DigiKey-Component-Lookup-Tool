@@ -68,19 +68,17 @@ The script will automatically install missing dependencies on first run.
 
 ## DigiKey API Setup
 
-1. Create a free account at [DigiKey Developer Portal](https://developer.digikey.com/)
+1. You need to create a free account at [DigiKey Developer Portal](https://developer.digikey.com/)
 2. Watch this helpful video by eeintech: https://youtu.be/OI1EGEc0Ju0?si=-jcA02vf3ZqAk8kV
 3. Register an app to get:
    - `DIGIKEY_CLIENT_ID`
    - `DIGIKEY_CLIENT_SECRET`
-4. Rename `.env.example` to `.env` and edit the file:
+4.Make sure to rename `.env.example` to `.env` and edit the file:
 
 ```
 DIGIKEY_CLIENT_ID=your_client_id_here
 DIGIKEY_CLIENT_SECRET=your_client_secret_here
 ```
-
-> Your `.env` is ignored by Git for security. Never upload it to GitHub.
 
 ---
 
@@ -110,15 +108,6 @@ Enter part name or number (or 'q' to quit): atmega328pu
 - View analytics:
   - Average quantity available
   - Parts per manufacturer
-
----
-
-## Security Advice
-
-- Keep your real `.env` file private.
-- Do **not** share your DigiKey credentials — even via GitHub.
-- Encourage users to generate their own credentials.
-- You can include a **video tutorial** showing how to get these keys.
 
 ---
 
