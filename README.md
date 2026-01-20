@@ -1,10 +1,8 @@
 # DigiKey Component Lookup Tool
 
-This Python tool lets you search electronic components via the DigiKey API, view detailed info, and export search results.
+This is a Python CLI tool to search electronic components from the DigiKey API, view detailed specs, and export results to CSV or XLSX file. It's ideal for engineers, makers, and hobbyists who prefer terminal applications and need quick and easy access to information about a specific component.
 
-A stylish and robust Python CLI tool to search electronic components from the DigiKey API, view detailed specs, and export results to file — ideal for engineers, makers, and hobbyists.
-
-Please read the setup instructions fully!
+Please read the setup instructions fully before use!
 ---
 
 ## ✨ Features
