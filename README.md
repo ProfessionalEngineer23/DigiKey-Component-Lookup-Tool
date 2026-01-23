@@ -5,9 +5,7 @@ This is a Python CLI tool to search electronic components from the DigiKey API, 
 Please read the setup instructions fully before use!
 ---
 
-<a href="media/DigiKey_Component_Look_Up_Tool .gif">
-  <img src="media/linux.png" width="900" alt="Click to play demo video">
-</a>
+<img src="media/DigiKey_Component_Look_Up_Tool .gif" width="900" alt="DigiKey Component Lookup Tool Demo">
 
 ## ✨ Features
 
