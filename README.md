@@ -17,7 +17,7 @@ Please read the setup instructions fully before use!
 - 🔐 Uses `.env` to safely store your DigiKey credentials
 
 ---
-<img src="media/DigiKey_Component_Look_Up_Tool .gif" width="900" alt="DigiKey Component Lookup Tool Demo">
+<img src="media/DigiKey_Component_Look_Up_Tool2 .gif" width="900" alt="DigiKey Component Lookup Tool Demo">
 ---
 
 ## Setup Instructions
