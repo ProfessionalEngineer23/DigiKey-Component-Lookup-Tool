@@ -113,7 +113,8 @@ def display_part_info(product):
         pricing_str = ["Not available"]
 
     part_number = getattr(product, "digi_key_part_number", None) or product.manufacturer_product_number
-    product_url = f"https://www.digikey.ie/en/products/detail/{part_number}"
+    #product_url = f"https://www.digikey.ie/en/products/detail/{part_number}"
+    product_url = getattr(product, "product_url", "N/A")
 
     print(f"\n{CYAN}{BOLD}📦 Product Information:{RESET}")
     print(f"{BOLD}Status:              {RESET}{availability}")
